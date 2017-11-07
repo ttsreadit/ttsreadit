@@ -17,5 +17,5 @@
 * 'Read It!' also a rich set of settings to fine tune your TTS experience
 
 ## Resources: ##
-* Please visit Chrome extension site: https://chrome.google.com/webstore/detail/read-it-article-to-speech/beofjdkoeblbffhccncmhnmbdngodmnm
-* Release notes of current release
+* [Chrome Extension Site](https://chrome.google.com/webstore/detail/read-it-article-to-speech/beofjdkoeblbffhccncmhnmbdngodmnm)
+* [Release Notes](ReleaseNotes.md)
