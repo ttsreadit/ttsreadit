@@ -1,0 +1,652 @@
+{
+    "extName": {
+        "message": "TTS Read-It! 语音，字典 & 翻译"
+    },
+    "extDesc": {
+        "message": "基于Google TTS（文字转语音），网页可以为您翻译和朗读整篇文章"
+    },
+    "command_read_article": {
+        "message": "朗读文章"
+    },
+    "command_read_article_in_translation": {
+        "message": "朗读翻译的文章"
+    },
+    "command_stop_reading": {
+        "message": "停止朗读"
+    },    
+    "label_close": {
+        "message": "关闭"
+    },
+    "label_confirm": {
+        "message": "确认"
+    },
+    "label_ok": {
+        "message": "OK"
+    },
+    "label_cancel": {
+        "message": "取消"
+    },
+    "label_title": {
+        "message": "标题"
+    },
+    "label_author": {
+        "message": "作者"
+    },
+    "label_time": {
+        "message": "时间"
+    },
+    "label_body": {
+        "message": "内容"
+    },
+    "label_language": {
+        "message": "语言"
+    }, 
+    "menu_read_selection": {
+        "message": "朗读这段节选.."
+    },
+    "menu_read_selection_translation": {
+        "message": "用 “$1” 朗读这段节选.."
+    },    
+    "menu_read_paragraph": {
+        "message": "朗读这个段落.."
+    },
+    "menu_read_paragraph_translation": {
+        "message": "用 “$1” 朗读这个段落.."
+    },    
+    "menu_read_article": {
+        "message": "朗读这篇文章.."
+    },
+    "menu_read_article_translation": {
+        "message": "用 “$1” 朗读这篇文章.."
+    },    
+    "menu_stop_reading": {
+        "message": "停止朗读.."
+    },
+    "menu_pause_reading": {
+        "message": "暂停朗读.."
+    },
+    "menu_resume_reading": {
+        "message": "恢复朗读.."
+    },
+    "status_site_template_ok": {
+        "message": "网站模板的状态良好."
+    },
+    "error_site_not_found": {
+        "message": "网站没找到."
+    },
+    "error_selection_no_text": {
+        "message": "'Read-It!' 在当前网页上没有节选内容."
+    },
+    "error_paragraph_no_text": {
+        "message": "'Read-It!' 在当前位置段落上没有可读内容."
+    },
+    "error_article_no_text": {
+        "message": "'Read-It!' 在当前网页上没有找到可读文章，请打开一个文章网页后再试，比如：https://www.nasa.gov/image-feature/cloudy-earth"
+    },
+    "error_document_no_text": {
+        "message": "'Read-It!' 无法读取当前网页，请重新加载当前网页厚再试。"
+    },
+    "error_article_no_template": {
+        "message": "'Read-It!' 还没有网站模板 '$1', 请提交创建网站模板请求。\n注意：如果此网站需要用户登录，那么我们将无法访问这些页面，请使用Read-It！论坛提交请求。\n论坛：https://groups.google.com/d/forum/tts-read-it\n\n以下信息将被提交：\n错误：没有网站模板\n网站：$2"
+    },
+    "error_connection_refused": {
+        "message": "服务器拒绝连接。Host：'$host$'",
+        "placeholders": {
+            "host": {
+                "content": "$1"
+            }
+        }
+    },
+    "error_no_site_template": {
+        "message": "网站模板‘$host$’还没创建，请点弹出图标来报告这个错误.",
+        "placeholders": {
+            "host": {
+                "content": "$1"
+            }
+        }
+    },
+    "error_load_site_template": {
+        "message": "无法获取网站模板：'$host$', 错误: $err$",
+        "placeholders": {
+            "host": {
+                "content": "$1"
+            },
+            "err": {
+                "content": "$2"
+            }
+        }
+    },
+    "error_get_article": {
+        "message": "无法获取文章, 错误: '$err$'",
+        "placeholders": {
+            "err": {
+                "content": "$1"
+            }
+        }
+    },
+    "error_parse_json": {
+        "message": "无法解析JSON数据, 错误: '$err$', JSON: '$json$'",
+        "placeholders": {
+            "err": {
+                "content": "$1"
+            },
+            "json": {
+                "content": "$2"
+            }
+        }
+    },
+    "error_parse_article": {
+        "message": "无法解析文章，错误: '$err$'",
+        "placeholders": {
+            "err": {
+                "content": "$1"
+            }
+        }
+    },
+    "report_issue_no_template": {
+        "message": "没有找到网站模板：'$host$', 网页：'$url$', 附加信息：'$note$'",
+        "placeholders": {
+            "host": {
+                "content": "$1"
+            },
+            "url": {
+                "content": "$2"
+            },
+            "note": {
+                "content": "$3"
+            }
+        }
+    },
+    "report_issue_wrong_template": {
+        "message": "网站模板存在问题：'$host$', 文章属性：'$fields$' 不正确, 网页：'$url$', 附加信息：'$note$'",
+        "placeholders": {
+            "host": {
+                "content": "$1"
+            },
+            "fields": {
+                "content": "$2"
+            },
+            "url": {
+                "content": "$3"
+            },
+            "note": {
+                "content": "$4"
+            }
+        }
+    },
+    "report_issue_other_issues": {
+        "message": "网站模板存在问题：'$host$', 网页：'$url$', 附加信息：'$note$'",
+        "placeholders": {
+            "host": {
+                "content": "$1"
+            },
+            "url": {
+                "content": "$2"
+            },
+            "note": {
+                "content": "$3"
+            }
+        }
+    },
+    "tabs_tts_label": {
+        "message": "朗读中"
+    },
+    "tabs_sites_label": {
+        "message": "网站"
+    },
+    "tabs_tutorial_label": {
+        "message": "教程"
+    },
+    "tabs_label_news": {
+        "message": "新闻"
+    },    
+    "label_sites_article_result": {
+        "message": "文章结果"
+    },
+    "dialog_title_update_user_info": {
+        "message": "更新用户信息"
+    },
+    "dialog_update_user_info_desc": {
+        "message": "在保存您的网站模板前, 请更新您的用户信息："
+    },        
+    "tabs_settings_label": {
+        "message": "设置"
+    },
+    "tabs_about_label": {
+        "message": "关于"
+    },
+    "label_current_tab": {
+        "message": "当前网页："
+    },
+    "label_host": {
+        "message": "网站："
+    },
+    "label_issues": {
+        "message": "问题："
+    },
+    "label_issue_url": {
+        "message": "网站："
+    },
+    "label_issue_no_template": {
+        "message": "当前网站没有模板："
+    },
+    "label_issue_wrong_template": {
+        "message": "当前网站的模板有些错误："
+    },
+    "label_issue_wrong_template_title": {
+        "message": "标题有错误"
+    },
+    "label_issue_wrong_template_author": {
+        "message": "作者有错误"
+    },
+    "label_issue_wrong_template_time": {
+        "message": "时间有错误"
+    },
+    "label_issue_wrong_template_body": {
+        "message": "内容有错误"
+    },
+    "label_issue_wrong_template_language": {
+        "message": "语言有错误"
+    },
+    "label_issue_other_issues": {
+        "message": "其他问题"
+    },
+    "label_issue_enable_support": {
+        "message": "复制问题的内容，然后张贴在 'Read-It!'  帮助网页上."
+    },
+    "issue_no_site_template": {
+        "message": "这个网站没有可用的模板."
+    },
+    "issue_license_is_expired": {
+        "message": "您的 'Read-It!'  许可证已过期."
+    },
+    "issue_no_license": {
+        "message": "您没有 'Read-It!'  许可证."
+    },
+    "issue_user_not_sign_in": {
+        "message": "用户还没有登录."
+    },
+    "issue_oauth2_not_granted": {
+        "message": "OAuth2未被授予或被撤销."
+    },
+    "issue_auth_page_not_loaded": {
+        "message": "无法加载授权页面."
+    },
+    "issue_incorrect_fields": {
+        "message": "有些属性不正确：'$fields$'",
+        "placeholders": {
+            "fields": {
+                "content": "$1"
+            }
+        }
+    },
+    "confirm_app_subscription": {
+        "message": "警告: $msg$\n你可以通过 ‘Chrome 网上应用店’获得 'Read-It!'  许可证，获得许可证后：\n* 可以使用正确的语音朗读网页文章，节选和段落\n* 可以获得更新的网站模板\n* 可以获得更多最新的网站模板\n* 可以分享你的创建的网站模板\n\n如果您还想继续测试'Read-It!', 请访问NASA试用网站: https://www.nasa.gov/image-feature/cloudy-earth",
+        "placeholders": {
+            "msg": {
+                "content": "$1"
+            }
+        }
+    },
+    "confirm_sign_in_to_chrome": {
+        "message": "'Read-It!' 需要在您的 Chrome 用户下运行，你现在要登入 Chrome 吗？"
+    },
+    "confirm_granted_oauth2": {
+        "message": "'Read-It!' 需要您的许可才能运行，你现在要授予 'Read-It!' OAuth2 权限吗？",
+        "placeholders": {
+            "issue": {
+                "content": "$1"
+            }
+        }
+    },
+    "confirm_create_site": {
+        "message": "网站 '$host$' 没找到, 你现在要创建这个网站吗？",
+        "placeholders": {
+            "host": {
+                "content": "$1"
+            }
+        }
+    },
+    "label_report_an_issue": {
+        "message": "提交问题"
+    },
+    "label_notes": {
+        "message": "细节："
+    },
+    "label_reading": {
+        "message": "朗读中："
+    },
+    "label_submit": {
+        "message": "提交"
+    },
+    "text_not_reading": {
+        "message": "'Read-It!'  没有在朗读."
+    },
+    "text_publish_site_template_succeeded": {
+        "message": "'Read-It!'  已成功保存网站模板，网站：'$host$'",
+        "placeholders": {
+            "host": {
+                "content": "$1"
+            }
+        }
+    },
+    "text_publish_site_template_failed": {
+        "message": "'Read-It!'  无法保存网站模板，网站：'$host$'，错误：'$err$'",
+        "placeholders": {
+            "host": {
+                "content": "$1"
+            },
+            "err": {
+                "content": "$2"
+            }
+        }
+    },
+    "text_article_no_title": {
+        "message": "无标题"
+    },
+    "text_article_no_date": {
+        "message": "无日期"
+    },
+    "label_voice": {
+        "message": "语音："
+    },
+    "btn_tts_issues": {
+        "message": "报告问题.."
+    },
+    "btn_tts_template": {
+        "message": "修改模板.."
+    },
+    "btn_tts_signin": {
+        "message": "登录 Chrome.."
+    },
+    "btn_tts_grant": {
+        "message": "授权 OAuth2.."
+    },
+    "btn_tts_subscribe": {
+        "message": "请订阅 'Read-It!' .."
+    },
+    "btn_tts_article_title": {
+        "message": "朗读这篇文章.."
+    },
+    "btn_tts_paragraph_title": {
+        "message": "朗读这段章节.."
+    },
+    "btn_tts_selection_title": {
+        "message": "朗读这段节选.."
+    },
+    "label_tts_modify_voice_templates": {
+        "message": "修改语音模板"
+    },
+    "label_saved_sites": {
+        "message": "已存储的网站："
+    },
+    "label_site_templates": {
+        "message": "网站模板："
+    },
+    "edit_sites_search": {
+        "message": "输入网站，按回车来查询.."
+    },
+    "btn_sites_create_title": {
+        "message": "创建一个新的网站模板.."
+    },
+    "btn_sites_import_title": {
+        "message": "从服务器下载一个网站模板.."
+    },
+    "btn_sites_example_title": {
+        "message": "打开这个网站的一篇文章.."
+    },
+    "btn_sites_try_title": {
+        "message": "在当前的网页上测试模板.."
+    },
+    "btn_sites_publish_title": {
+        "message": "把当前的模板存储到服务器.."
+    },
+    "btn_sites_remove_title": {
+        "message": "删除存储在本地的模板.."
+    },
+	"icon_sites_official_title": {
+        "message": "这是个官方模板"
+    },
+    "icon_sites_verified_title": {
+        "message": "这个网页模板已经测试过了"
+    },
+    "icon_sites_published_title": {
+        "message": "这个网页模板已经存储到服务器了"
+    },
+    "label_settings_appearance": {
+        "message": "外观："
+    },
+    "label_settings_user_info": {
+        "message": "用户名字："
+    },
+    "label_settings_tts": {
+        "message": "文字转语音："
+    },
+    "label_settings_theme": {
+        "message": "设置主题背景："
+    },
+    "label_settings_username": {
+        "message": "设置用户的名字："
+    },
+    "label_settings_useremail": {
+        "message": "设置用户的邮箱："
+    },    
+    "label_settings_tts_volume": {
+        "message": "设置朗读的音量："
+    },
+    "label_settings_tts_speed": {
+        "message": "设置朗读的速度："
+    },
+    "label_settings_tts_max_length": {
+        "message": "设置朗读句子的最长字数："
+    },
+    "label_settings_tts_templates": {
+        "message": "设置每种语言的语言模板："
+    },
+    "btn_settings_tts_templates": {
+        "message": "管理语音模板"
+    },
+    "label_settings_tts_visual": {
+        "message": "设置网页的视觉反馈："
+    },
+    "label_settings_tts_visual_title": {
+        "message": "设置当阅读在网页上显示视觉反馈。"
+    },
+    "label_settings_tts_highlight": {
+        "message": "段落高亮显示"
+    },
+    "label_settings_tts_highlight_title": {
+        "message": "高亮显示正在阅读的段落"
+    },
+    "label_settings_tts_scroll": {
+        "message": "段落滚动到视野中"
+    },
+    "label_settings_tts_scroll_title": {
+        "message": "自读滚动正在阅读的段落到视野中"
+    },
+    "label_settings_translation": {
+        "message": "自动翻译："
+    },
+    "label_settings_translation_language": {
+        "message": "设置您的语言："
+    },
+    "label_settings_translation_popup": {
+        "message": "弹出翻译："
+    },
+    "label_settings_popup_enable": {
+        "message": "当选择文本时显示弹出翻译。"
+    },
+    "label_settings_translation_key": {
+        "message": "控制键："
+    },
+    "label_settings_translation_key_none": {
+        "message": "不使用"
+    },
+    "btn_settings_tts_languages": {
+        "message": "模板管理"
+    },
+    "label_voices_languages": {
+        "message": "语言："
+    },
+    "label_voices_preferred_voice": {
+        "message": "首选语音："
+    },
+    "label_settings_voices_templates": {
+        "message": "模板："
+    },
+    "label_settings_voices_templates_selection": {
+        "message": "节选："
+    },
+    "label_settings_voices_templates_paragraph": {
+        "message": "段落："
+    },
+    "label_settings_voices_templates_article": {
+        "message": "文章："
+    },
+    "label_settings_voices_example": {
+        "message": "例子："
+    },
+    "label_settings_voices_example_title": {
+        "message": "标题："
+    },
+    "label_settings_voices_example_author": {
+        "message": "作者："
+    },
+    "label_settings_voices_example_time": {
+        "message": "时间："
+    },
+    "label_settings_voices_example_body": {
+        "message": "内容："
+    },
+    "label_settings_voices_test_selection": {
+        "message": "测试节选"
+    },
+    "label_settings_voices_test_paragraph": {
+        "message": "测试段落"
+    },
+    "label_settings_voices_test_article": {
+        "message": "测试文章"
+    },
+    "text_voice_template_selection": {
+        "message": "{body}"
+    },
+    "text_voice_template_paragraph": {
+        "message": "{body}\n(段落结束)"
+    },
+    "text_voice_template_article": {
+        "message": "{title}\n作者 {author}\n{time}\n{body}\n(文章结束)"
+    },
+    "text_voice_exmaple_title": {
+        "message": "野花盛开"
+    },
+    "text_voice_exmaple_author": {
+        "message": "张三"
+    },
+    "text_voice_exmaple_time": {
+        "message": "2017年四月一日"
+    },
+    "text_voice_exmaple_body": {
+        "message": "加州羚羊谷保护区报道："
+    },
+    "dialog_import_site_template": {
+        "message": "导入网站模板: '$host$'",
+        "placeholders": {
+            "host": {
+                "content": "$1"
+            }
+        }
+    },
+    "label_yes": {
+        "message": "是"
+    },
+    "label_no": {
+        "message": "否"
+    },
+    "label_true": {
+        "message": "真"
+    },
+    "label_false": {
+        "message": "假"
+    },
+    "label_copyrights": {
+        "message": "版权所有2017 Web Gadget Inc. 保留所有权利。"
+    },
+    "label_import_siteid": {
+        "message": "序号"
+    },
+    "label_import_updatedtime": {
+        "message": "更新时间"
+    },
+    "label_import_username": {
+        "message": "创建者"
+    },
+    "label_import_official": {
+        "message": "官方模板"
+    },
+    "label_import_goods_fails": {
+        "message": "成功/失败"
+    },
+    "label_import_actions": {
+        "message": "操作"
+    },
+    "btn_test_this_template_title": {
+        "message": "测试这个模板.."
+    },
+    "btn_use_this_template_title": {
+        "message": "使用这个模板.."
+    },
+    "question_delete_site_template": {
+        "message": "请确认你要删除网站模板：'$1'?"
+    },
+    "btn_support": {
+        "message": "支持"
+    },
+    "btn_support_title": {
+        "message": "打开程序支持网页"
+    },
+    "tutorial_title" : {
+        "message": "如何使用 'TTS Read-It! - 語音 ＆ 翻譯'"
+    },
+    "tutorial_open_tryout_site" : {
+        "message": "首先请打开测试网站：NASA.GOV 关于 “多云的天空” 的文章："
+    },
+    "tutorial_right_click_menu" : {
+        "message": "当网页加载后, 在这个网页点击鼠标右键, 选择 ‘TTS Read-It! - 文章转语音’ => ‘阅读这篇文章..’；你会听到阅读文章的声音。"
+    },
+    "tutorial_control_playback" : {
+        "message": "现在您可以查看此窗口上面的页面，选择‘朗读’页面, 您可以控制朗读进程。"
+    },
+    "tutorial_modify_settings" : {
+        "message": "选择‘控制’页面, 您可以修改朗读属性。"
+    },
+    "tutorial_create_templates" : {
+        "message": "选择‘网站’页面, 您可以创建或修改网站模板。"
+    },
+    "tutorial_open_news_site": {
+        "message": "然后请打开一个热门新闻网站上的文章： "
+    },    
+    "tutorial_grant_oauth2": {
+        "message": "当网页加载后, 在这个网页点击鼠标右键, 选择 ‘阅读这篇文章..’；系统将会提示您授予 'Read-It!' OAuth2 权限，因为 'Read-It!' 需要您许可来验证许可证, 请选 OK 继续； 您有可能需要再次在网页上点击鼠标右键, 选择 ‘阅读这篇文章..’， 然后你会听到阅读文章的声音。"
+    },    
+    "tutorial_example_site_url": {
+        "message": "http://tech.sina.com.cn/t/2017-09-13/doc-ifykuffc5498905.shtml"
+    },
+    "news_release_notes": {
+        "message": "2017年9月（0.2版）"
+    },
+    "news_auto_translation": {
+        "message": "不要被国外网站上你不熟悉的语言所为难，'Read-It!' 可以将那个网站的整篇文章翻译到你熟悉的语言并为你朗读。"
+    },
+    "news_foreign_site_url": {
+        "message": "https://fr.yahoo.com/style/chaussettes-chewbacca-justin-trudeau-font-163000113.html"
+    },
+    "news_open_foreign_site": {
+        "message": "点击下面的链接打开一个外国新闻网站："
+    },
+    "news_read_in_language": {
+        "message": "当网页加载后, 在这个网页点击鼠标右键, 选择 ‘TTS Read-It! - 语音 ＆ 翻译’ => \"用 ‘中文’ 阅读这篇文章..\"；你会听到中文朗读文章的声音。"
+    },
+    "news_change_translation_lanugage": {
+        "message": "如果你喜欢其他语言让 'Read-It!' 翻译和阅读，您可以打开 “设置” 页面，并更改您喜欢的翻译语言。"
+    }
+}
