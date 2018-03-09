@@ -16,11 +16,8 @@
 * 'Read It!' provides a build-in tool to create your own site template with simple jQuery selector
 * 'Read It!' also a rich set of settings to fine tune your TTS experience
 
-## Resources: ##
-* [Chrome Extension Site](https://chrome.google.com/webstore/detail/read-it-article-to-speech/beofjdkoeblbffhccncmhnmbdngodmnm)
-* [Release Notes](ReleaseNotes.md)
-
 ## Related: ##
+* 'TTS Reader' is a Chrome extnesion for you to listen to any website [Site](https://github.com/ttsreadit/ttsreadit), [Extension](https://chrome.google.com/webstore/detail/tts-reader-translator-dic/beofjdkoeblbffhccncmhnmbdngodmnm)
 * 'TTS Kindle Reader' is a Chrome extnesion to listen to your Kindle books [Site](https://github.com/ttsreadit/kindle.reader), [Extension](https://chrome.google.com/webstore/detail/tts-kindle-reader/boejkcdniilikalcdbigmobbmejjbppf)
 * 'TTS OverDrive Reader' is a Chrome extension to listen to you OverDrive books[Site](https://github.com/ttsreadit/overdrive.reader), [Extension](https://chrome.google.com/webstore/detail/tts-overdrive-reader/jmhelfebbfflimhdoimlkibelpcoafjl)
 * 'TTS Google Play Books Reader' is a Chrome extnesion to listen to your Google Play books[Site](https://github.com/ttsreadit/google-play-books-tts-reader), [Extension](https://chrome.google.com/webstore/detail/tts-google-books-reader/goailahjgoobladciinchmipiafijikf)
